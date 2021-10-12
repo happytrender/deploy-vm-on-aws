@@ -1,8 +1,8 @@
-name: A workflow for my Hello World file
+name: I dunno.
 on: push
 jobs:
   build:
-    name: Hello world action
+    name: I really dunno.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
