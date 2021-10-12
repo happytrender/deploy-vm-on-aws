@@ -2,6 +2,6 @@ Resources:
   MyInstance:
     Type: AWS::EC2::Instance
     Properties:
-      AvailabilityZone: us-east-1
-      ImageId: ami-058e6df85cfc7760b
+      KeyName: enes-cloudformation
+      ImageId: ami-02e136e904f3da870
       InstanceType: t2.micro
