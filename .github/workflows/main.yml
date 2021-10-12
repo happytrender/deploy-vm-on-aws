@@ -28,5 +28,5 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: enes-test-stack
-          template: actions.yaml
+          template: actions.yml
           no-fail-on-empty-changeset: "1"
