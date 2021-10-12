@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to AWS CloudFormation
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
-          name: Ying-test-stack
+          name: enes-test-stack
           template: ec2.yaml
           no-fail-on-empty-changeset: "1"
